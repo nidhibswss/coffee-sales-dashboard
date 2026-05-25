@@ -2,7 +2,7 @@
 
 This workbook contains 1,000+ real coffee sales orders from 2019 to 2022, spanning customers across the US, Ireland, and the UK. It tracks everything from individual transactions and customer profiles to monthly revenue trends — all visualized through a dynamic Excel dashboard.
 
-## 📁 File Structure
+### File Structure
 
 | Sheet | Description |
 |---|---|
@@ -11,7 +11,7 @@ This workbook contains 1,000+ real coffee sales orders from 2019 to 2022, spanni
 | `TotalSales` | Pivot summary of sales by year, month, and coffee type |
 | `Dashboard` | Visual dashboard with yearly performance breakdowns (see screenshots below) |
 
-## Dataset Details
+#### Dataset Details
 
 **Orders include:** Order ID, Date, Customer ID, Product ID, Quantity, Unit Price, Total Sales, Coffee Type, Roast Type, Size
 **Customers span three countries:**  United States,  Ireland, United Kingdom
@@ -19,14 +19,14 @@ This workbook contains 1,000+ real coffee sales orders from 2019 to 2022, spanni
 **Roast Types:** Light · Medium · Dark
 
 
-## Dashboard Screenshots
+### Dashboard Screenshots
 
 Screenshots of each year's sales record:
 
 <img width="2560" height="1441" alt="Dashboard" src="https://github.com/user-attachments/assets/f84e0ec2-e561-439e-a21f-6111b48fd618" />
 
 
- ###Key Insights
+ ### Key Insights
  
 - 2021 showed the most consistent sales performance, with revenue recorded across all 12 months.
 - Liberica generated the highest sales peaks, although purchases occurred less frequently compared to other coffee types.
@@ -34,7 +34,7 @@ Screenshots of each year's sales record:
 - Excelsa consistently underperformed relative to other coffee categories across all analyzed years.
 - Sales patterns suggest a bulk-purchase or occasional ordering behavior rather than stable recurring monthly revenue.
 
-### Tools Used
+###  Tools Used
 
 - **Microsoft Excel** — data modeling, pivot tables, and dashboard design
 
@@ -50,26 +50,23 @@ This project uses advanced Excel formulas, PivotTables, and dashboarding techniq
 - Used to dynamically retrieve customer information from the `customer_data` table into the `order_data` dataset.
 - Applications : Customer Name lookup, Email retrieval, Country identification, Loyalty Card status mapping
 
----
-
-### INDEX + MATCH
+#### INDEX + MATCH
 - Used for flexible two-way product lookups from the `Product_data` table.
 - Retrieved Fields : Coffee Type, Roast Type, Product Size, Unit Price
 - Allowed dynamic column/row matching, provided better flexibility than `VLOOKUP`
 
----
-### Pivot Tables & Date Grouping
+#### Pivot Tables & Date Grouping
 - PivotTables were created to summarize and analyze: yearly sales performance, yearly revenue trends,coffee type comparisons, product-level sales activity
 - Date Grouping : Order dates were grouped into Years, Months to improve trend visualization and reporting clarity.
 
----
-
-### Revenue Calculation
+#### Revenue Calculation
 Sales revenue was calculated using: =Quantity * Unit Price
 This allowed:
 - Monthly sales analysis
 - Yearly comparisons
 - Dashboard KPI reporting
+
+---
 
 ### How to Use
 
