@@ -65,11 +65,11 @@ This project uses advanced Excel formulas, PivotTables, and dashboarding techniq
 - Date Grouping : Order dates were grouped into Years, Months to improve trend visualization and reporting clarity.
 
 #### Revenue Calculation
-Sales revenue was calculated using: =Quantity * Unit Price
-This allowed:
-- Monthly sales analysis
-- Yearly comparisons
-- Dashboard KPI reporting
+- Sales revenue was calculated using: = Quantity * Unit Price
+- This allowed:
+  - Monthly sales analysis
+  - Yearly comparisons
+  - Dashboard KPI reporting
 
 ---
 
