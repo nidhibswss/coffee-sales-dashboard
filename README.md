@@ -37,31 +37,59 @@ Screenshots of each year's sales record:
 
 - **Microsoft Excel** — data modeling, pivot tables, and dashboard design
 
-## Data Processing & Excel Techniques
+# 🔎 Data Processing & Excel Techniques
 
-The project uses advanced Excel functions and data modeling techniques to automate data retrieval and analysis.
+This project uses advanced Excel formulas, PivotTables, and dashboarding techniques to automate data retrieval, transform raw datasets, and generate business insights from coffee sales transactions.
 
-### Key Excel Functions Used:
+---
 
-** XLOOKUP**
-Used to retrieve customer information dynamically from the `customer_data` table into the order dataset.
+## 📌 Key Excel Functions Used
 
-** INDEX + MATCH**
-Used for dynamic product lookups such as:
-- Coffee Type, Roast Type, Size, Unit Price
+### ✅ XLOOKUP
+Used to dynamically retrieve customer information from the `customer_data` table into the `order_data` dataset.
 
-** Pivot Tables & Date Grouping**
+### Applications
+- Customer Name lookup
+- Email retrieval
+- Country identification
+- Loyalty Card status mapping
 
-  PivotTables were used to:
-  - Summarize yearly/monthly sales
-  - Compare coffee types
-  - Analyze product performance trends
+### Purpose
+- Eliminated manual data entry
+- Improved dataset consistency
+- Simulated relational database behavior inside Excel
 
-- Order dates were grouped into years for cleaner trend visualization.
+---
 
-** Revenue Calculation**
+### ✅ INDEX + MATCH
+Used for flexible two-way product lookups from the `Product_data` table.
 
-Sales revenue was calculated using: Quantity * Unit Price
+### Retrieved Fields
+- Coffee Type
+- Roast Type
+- Product Size
+- Unit Price
+
+### Purpose
+- Enabled dynamic column/row matching, provided better flexibility than `VLOOKUP`
+
+---
+
+## 📊 Pivot Tables & Date Grouping
+
+PivotTables were created to summarize and analyze: yearly sales performance, yearly revenue trends,coffee type comparisons, product-level sales activity
+
+### Date Grouping
+Order dates were grouped into Years, Months to improve trend visualization and reporting clarity.
+
+---
+
+## 💰 Revenue Calculation
+
+Sales revenue was calculated using:
+
+```excel id="8w0xsp"
+=Quantity * Unit Price
 
 This allowed:
 - Monthly sales analysis
