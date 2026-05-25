@@ -11,6 +11,8 @@ This workbook contains 1,000+ real coffee sales orders from 2019 to 2022, spanni
 | `TotalSales` | Pivot summary of sales by year, month, and coffee type |
 | `Dashboard` | Visual dashboard with yearly performance breakdowns (see screenshots below) |
 
+---
+
 #### Dataset Details
 
 **Orders include:** Order ID, Date, Customer ID, Product ID, Quantity, Unit Price, Total Sales, Coffee Type, Roast Type, Size
@@ -18,6 +20,7 @@ This workbook contains 1,000+ real coffee sales orders from 2019 to 2022, spanni
 **Coffee Types Tracked:** Arabica, Excelsa, Liberica, Robusta
 **Roast Types:** Light · Medium · Dark
 
+---
 
 ### Dashboard Screenshots
 
@@ -34,17 +37,19 @@ Screenshots of each year's sales record:
 - Excelsa consistently underperformed relative to other coffee categories across all analyzed years.
 - Sales patterns suggest a bulk-purchase or occasional ordering behavior rather than stable recurring monthly revenue.
 
+----
+
 ###  Tools Used
 
 - **Microsoft Excel** — data modeling, pivot tables, and dashboard design
+
+---
 
 ### Data Processing & Excel Techniques
 
 This project uses advanced Excel formulas, PivotTables, and dashboarding techniques to automate data retrieval, transform raw datasets, and generate business insights from coffee sales transactions.
 
----
-
-#### Key Excel Functions Used
+#### Key Excel Functions Used : 
 
 #### XLOOKUP
 - Used to dynamically retrieve customer information from the `customer_data` table into the `order_data` dataset.
