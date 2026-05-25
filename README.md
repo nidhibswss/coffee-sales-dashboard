@@ -15,16 +15,16 @@ This workbook contains 1,000+ real coffee sales orders from 2019 to 2022, spanni
 
 #### Dataset Details
 
-**Orders include:** Order ID, Date, Customer ID, Product ID, Quantity, Unit Price, Total Sales, Coffee Type, Roast Type, Size
-**Customers span three countries:**  United States,  Ireland, United Kingdom
-**Coffee Types Tracked:** Arabica, Excelsa, Liberica, Robusta
-**Roast Types:** Light · Medium · Dark
+- Orders include:  Order ID, Date, Customer ID, Product ID, Quantity, Unit Price, Total Sales, Coffee Type, Roast Type, Size
+- Customers span three countries:  United States,  Ireland, United Kingdom
+- Coffee Types : Arabica, Excelsa, Liberica, Robusta
+- Roast Types: Light, Medium, Dark
 
 ---
 
 ### Dashboard Screenshots
 
-Screenshots of each year's sales record:
+Screenshots of 2019,2020,2021,2022's coffee sales record:
 
 <img width="2560" height="1441" alt="Dashboard" src="https://github.com/user-attachments/assets/f84e0ec2-e561-439e-a21f-6111b48fd618" />
 
@@ -41,7 +41,7 @@ Screenshots of each year's sales record:
 
 ###  Tools Used
 
-- **Microsoft Excel** — data modeling, pivot tables, and dashboard design
+- Microsoft Excel  — data modeling, pivot tables, and dashboard design
 
 ---
 
